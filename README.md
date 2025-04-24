@@ -10,9 +10,6 @@ Una aplicación web de lista de tareas que permite crear, visualizar, editar y e
 - [Tecnologías](#tecnologías)
 - [Instalación local](#-instalación-local)
 - [Estructura del proyecto](#estructura-del-proyecto)
-- [Commits y control de versiones](#commits-y-control-de-versiones)
-- [Posibles mejoras futuras](#🔮-posibles-mejoras-futuras)
-- [Licencia](#licencia)
 
 ---
 
@@ -46,7 +43,6 @@ Una aplicación web de lista de tareas que permite crear, visualizar, editar y e
 git clone https://github.com/Oscarhs117/Terra-Task-List.git
 cd Terra-Task-List
 ```
-
 
 ### 2. Crea la base de datos
 
