@@ -48,15 +48,32 @@ cd Terra-Task-List
 ```
 
 
-### 2. Configura la base de datos
+### 2. Crea la base de datos
 
-Inicia XAMPP y activa Apache + MySQL
+Tienes dos opciones:
+
+#### Opción A: Usando phpMyAdmin
 
 Accede a http://localhost/phpmyadmin
 
 Crea una base de datos llamada task_db
 
-Importa el archivo tasks.sql incluido
+Importa el archivo tasks.sql incluido en el proyecto
+
+#### Opción B: Usando línea de comandos (recomendado para devs)
+
+Desde la terminal o CMD, estando en la raíz del proyecto:
+
+```bash
+mysql -u root < tasks.sql
+```
+
+ Nota: Si tu usuario root de MySQL tiene contraseña, agrega -p:
+
+ 
+```bash
+mysql -u root -p < tasks.sql
+```
 
 ### 3. Configura la conexión en db/db.php
 
